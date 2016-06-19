@@ -1,6 +1,3 @@
-// buffer overflow.cpp : Defines the entry point for the console application.
-//
-
 #include "stdio.h"
 #include "string.h"
 
