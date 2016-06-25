@@ -1,4 +1,5 @@
 [SECTION .text]
+
 global _start
 _start:
     ; mov ebx,0
