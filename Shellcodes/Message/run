@@ -5,5 +5,5 @@ nasm -g -f elf32 $shellcode_name.asm
 ld -m elf_i386 -g -o $shellcode_name $shellcode_name.o
 objdump -d $shellcode_name
 
-gcc shellcode.c -o shellcode
+gcc -fno-stack-protector -z execstack shellcode.c -o shellcode
 ./shellcode
