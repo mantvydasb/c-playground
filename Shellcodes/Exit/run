@@ -1,0 +1,9 @@
+#!/bin/bash
+shellcode_name="exit"
+
+nasm -g -f elf32 $shellcode_name.asm
+ld -m elf_i386 -g -o $shellcode_name $shellcode_name.o
+objdump -d $shellcode_name
+
+gcc shellcode.c -o shellcode
+./shellcode

@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -g shellcode1.c -o shellcode1; ./shellcode1
