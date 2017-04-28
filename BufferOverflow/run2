@@ -1,0 +1,3 @@
+#!/bin/bash
+name=overflow2
+gcc -g  $name.c -o $name-exe; ./$name-exe

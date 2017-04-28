@@ -1,0 +1,3 @@
+#!/bin/bash
+name=constructs
+gcc -g  $name.c -o $name-exe; ./$name-exe
