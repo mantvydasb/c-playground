@@ -17,4 +17,17 @@ int main() {
             break;
         }
     }
+
+
+    for (int i = 69; i < 100; i++) {
+        printf("Iteration: %d\n", i);
+    }
+
+
+    int b = 0;
+    int i = 0;
+    while (i < 20) {
+        printf("Iteration: %d\n", i);
+        i++;
+    }
 }
