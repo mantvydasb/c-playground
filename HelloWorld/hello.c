@@ -24,7 +24,7 @@ int main() {
     char* n = "Mantvydas Baranauskas\n";
     
     printf(n);
-    function2(1,2,3);
+    function2(1, 2, 3);
 
     return 55;    
 }
