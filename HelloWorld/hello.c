@@ -2,9 +2,9 @@
 
 // 0040051a - start
 
-void function2() {
-    char* c = "Antras Mantvydas Baranauskas\n";
-    printf(c);
+void function2(int a, int b, int c) {
+    char* d = "Antras Mantvydas Baranauskas\n";
+    printf(d);
 }
 
 int main() {
@@ -24,7 +24,7 @@ int main() {
     char* n = "Mantvydas Baranauskas\n";
     
     printf(n);
-    function2();
+    function2(1,2,3);
 
     return 55;    
 }
