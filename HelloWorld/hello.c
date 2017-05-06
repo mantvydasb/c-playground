@@ -7,7 +7,14 @@ void function2(int a, int b, int c) {
     printf(d);
 }
 
-int main() {
+int main(int argc, char *argv[]) {
+
+    printf("argc: %d\n", argc);
+
+    for (int i=0; i < argc; i++) {
+        printf("arg %d is: %s\n", i, argv[i]);
+    }
+
     int a = 0x55555555;
     int b = 0x11111111;
     int c = 0x22222222;
