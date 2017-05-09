@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
     printf("argc: %d\n", argc);
 
     for (int i=0; i < argc; i++) {
-        printf("arg %d is: %s\n", i, argv[i]);
+        printf("arg %d / %p is: %s\n", i, argv[i], argv[i]);
     }
 
     int a = 0x55555555;
