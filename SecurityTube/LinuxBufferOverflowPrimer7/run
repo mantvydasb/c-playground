@@ -1,0 +1,8 @@
+#!/bin/bash
+name=ExploitMe
+gcc -g -mpreferred-stack-boundary=2 -m32 $name.c -o $name.exe -fno-stack-protector -z execstack -no-pie; ./$name.exe 
+# gcc -g -m32 $name.c -o $name.exe -fno-stack-protector -z execstack -no-pie; ./$name.exe 
+
+name=HackYou
+gcc -g -mpreferred-stack-boundary=2 -m32 $name.c -o $name.exe -fno-stack-protector -z execstack -no-pie; ./$name.exe 
+# gcc -g -mpreferred-stack-boundary=2 -m32 $name.c -o $name.exe -fno-stack-protector -z execstack -no-pie; ./$name.exe 

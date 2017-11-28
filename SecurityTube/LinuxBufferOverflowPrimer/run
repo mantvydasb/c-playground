@@ -1,0 +1,4 @@
+#!/bin/bash
+name=overflow
+gcc -g -mpreferred-stack-boundary=2 -m32 $name.c -o $name.exe -fno-stack-protector -z execstack -no-pie;
+gcc -g -mpreferred-stack-boundary=4 -m32 $name.c -o $name-3.exe -fno-stack-protector -z execstack -no-pie;
